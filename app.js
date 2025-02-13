@@ -11,7 +11,7 @@ function agregarAmigo(){
 
 
     //validar que el campo no este vacio
-    if(nombre === ""){
+    if(nombreAmigo === ""){
         alert("Por favor, inserte un nombre.");
         return;  //detiene la funcion si el usuario no carga ningun nombre
     }
