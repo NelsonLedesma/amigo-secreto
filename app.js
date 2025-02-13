@@ -54,6 +54,7 @@ function sortearAmigo(){
     //validar que haya amigos disponibles
     if(amigos.length === 0){
         alert("No hay amigos disponibles para poder sortear. Agrega al menos uno.");
+        return;
     }
 
     //genera un indice aleatorio
