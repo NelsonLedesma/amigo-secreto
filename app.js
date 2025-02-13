@@ -26,7 +26,7 @@ function agregarAmigo(){
     amigos.push(nombreAmigo);
 
     //Limpiar el campo de entrada
-    inputAmigo.arialValue = "";
+    inputAmigo.value = "";
 
     //actualizar la lista en el html
     actualizarLista();
